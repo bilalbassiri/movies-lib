@@ -1,0 +1,19 @@
+{
+  "name": "Orem",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Bilal Bassiri",
+  "license": "ISC",
+  "description": "Orem"
+}

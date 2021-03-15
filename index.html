@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="editing-mode-background-hidden" id="disabled__Body"></div>
+    <header class="header">
+        <h1  class="alpha-logo"><a href="./index.html">Orem</a></h1>
+        <div class="help-icons" id="help__Bar">
+                <i class="material-icons bookmark-style" id="bookmark">bookmark_border</i>
+                <i class="material-icons plus-mark" id="plus__Mark">exposure_plus_1</i>
+        </div>
+    </header>
+    <div class="body-container">
+
+                    <i class="clear-all material-icons" id="clear__All__Button">clear_all</i>
+
+        <aside class="adding-container">
+            <h2><span id="adding__Card__Title">Add</span> Favorite One</h2>
+            <input type="text" id="input__Movie__Name" placeholder="Movie name">
+            <input type="text" id="input__Director" placeholder="Director">
+            <input type="text" id="release__Year" placeholder="Release year">      
+            <div class="genre-container">
+                <div>
+                    <input type="checkbox" name="genre" value="war" id="war">
+                    <label for="war">War</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="action" id="action">
+                    <label for="action">Action</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="animation" id="animation">
+                    <label for="animation">Animation</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="comedy" id="comedy">
+                    <label for="comedy">Comedy</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="crime" id="crime">
+                    <label for="crime">Crime</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="drama" id="drama">
+                    <label for="drama">Drama</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="fantasy" id="fantasy">
+                    <label for="fantasy">Fantasy</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="history" id="history">
+                    <label for="history">History</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="thriller" id="thriller">
+                    <label for="thriller">Thriller</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="romance" id="romance">
+                    <label for="romance">Romance</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="science_fiction" id="science_fiction">
+                    <label for="science_fiction">Science Fiction</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="western" id="western">
+                    <label for="western">Western</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="horror" id="horror">
+                    <label for="horror">Horror</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="mystery" id="mystery">
+                    <label for="mystery">Mystery</label>
+                </div>
+            
+            </div>
+            <button type="button" class="btn add-button" id="add__Button">
+                <i class="material-icons">add</i>
+            </button>
+            <button type="button" class="btn edit-button" id="edit__Button">
+                <i class="material-icons">check</i>
+            </button>
+          </aside>
+        <section role="movies" id="movies__Container" class="movie-container">
+                <div id="slid__Bar__Bar" class="slid-bar-bar">
+                    <div id="current__Bar" class="current-bar"></div>
+                </div>
+        </section>
+    </div>
+    <div class="copr-footer"><a href="https://www.linkedin.com/in/bilal-bassiri/" target="_blank">Designed & Built by Bilal Bassiri</a></div>
+    <script src="./src/main.js" type="module"> </script>
+</body>
+</html>
